@@ -35,11 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-...
-name: CI
-	...
-	steps:
-		...
-		- name: ShellCheck
-		  uses: ludeeus/action-shellcheck@2.0.0
+      - name: ShellCheck
+        uses: ludeeus/action-shellcheck@2.0.0
 
